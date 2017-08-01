@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "GeeksForGeeks Beautiful UI", 
+  "description": "Removes the clutter from the GeeksForGeeks pages, making the content more readable.",
+  "author": "Anomitra ",
+  "shortname": "Beautiful GFG",
+  "version": "0.3",
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.geeksforgeeks.org/*"],
+      "js": ["beautify.js"]
+    }
+  ],
+
+  "icons": {
+    "16": "images/icon_16.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  } 
+}
