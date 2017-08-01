@@ -9,5 +9,5 @@ if(pageName!=HOMEPAGE_NAME) {
 	body = document.getElementsByClassName('site-content')[0];
 	body.style.width = WIDTH+"%";
 	body.style.float='none';
-	body.style.margin='auto';
+	body.style.margin='auto';	
 }
